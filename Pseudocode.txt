@@ -1,0 +1,20 @@
+REPEATE
+READ "Pick (a) to add, Pick (b) to subtract, Pick (c) to muliply, and Pick (d) to divide:"
+set operation = READ output
+
+READ "Pick (a) for int, or Pick (b) for double:"
+    IF dataType = int 
+        READ INT = "Pick your first number:"
+        READ INT = "Pick your second  number:"
+    Else IF = double 
+        READ DOUBLE = "Pick your first number:"
+        READ DOUBLE = "Pick your second number:"
+    IF operation = addition and dataType = int THEN
+        calc1.add()
+    Else IF 
+    sequence 2
+    EndIF
+Until user inputs "false" to "Would you still like to continue?"
+    
+    
+
